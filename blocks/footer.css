@@ -1,0 +1,21 @@
+.footer {
+  box-sizing: border-box;
+  margin-top: 92px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    font-size: 0.875rem;
+  }
+  .footer {
+    margin-top: 64px;
+  }
+}
