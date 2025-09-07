@@ -1,0 +1,77 @@
+.intro {
+  margin-top: 92px;
+  max-width: 830px;
+  margin-left: 148px;
+}
+
+.intro__title {
+  font-size: 3.375rem;
+  margin-top: 40px;
+  font-weight: 900;
+  line-height: 1.074; /* relative to it's element font size */
+  margin-bottom: 0;
+}
+
+.intro__quote {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  max-width: 738px;
+  line-height: 1.416;
+}
+
+.intro__span-quote {
+  margin-top: 10px;
+  display: block;
+  text-align: end;
+  max-width: 732px;
+}
+
+.intro__finalp {
+  margin-top: 32px;
+  max-width: 722px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+    margin: 90px auto 0;
+  }
+
+  .intro__title {
+    font-size: 2.812rem;
+    line-height: 1.088;
+    max-width: 707px;
+  }
+
+  .intro__quote {
+    margin-top: 50px;
+  }
+
+  .intro__span-quote {
+    margin-top: 0;
+  }
+
+  .intro__finalp {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    margin: 64px 16px 0 16px;
+  }
+
+  .intro__title {
+    font-size: 2rem;
+    line-height: 1.093;
+  }
+
+  .intro__quote {
+    margin-top: 40px;
+  }
+
+  .intro__span-quote {
+    margin-top: 10px;
+  }
+}
