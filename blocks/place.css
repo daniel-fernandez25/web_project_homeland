@@ -27,7 +27,7 @@
   align-self: end;
 }
 
-.place__artist--heading {
+.place__artist-heading {
   font-size: 0.75rem;
   color: #aaa;
   margin-bottom: 8px;
@@ -57,7 +57,7 @@
   font-size: 1.125rem;
 }
 
-.place__buy--button {
+.place__buy-button {
   width: 289px;
   height: 48px;
   grid-area: button;
@@ -68,7 +68,7 @@
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.place__buy--button:hover {
+.place__buy-button:hover {
   opacity: 25%; /*fill property in Figma tells you how to set the opacity*/
 }
 
@@ -114,8 +114,8 @@
     align-self: flex-start;
   }
 
-  .place__artist--heading,
-  .place__artist--name {
+  .place__artist-heading,
+  .place__artist-name {
     margin: 0;
   }
 
@@ -137,7 +137,7 @@
     gap: 25px;
   }
 
-  .place__buy--button {
+  .place__buy-button {
     margin: 30px auto 0;
   }
 }
